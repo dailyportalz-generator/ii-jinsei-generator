@@ -2,7 +2,7 @@
   <form @submit.prevent="handleSubmit()" class="input-question">
     <dl>
       <dd>
-        <input v-model="name" type="text">
+        <input v-model="name" placeholder="お名前を入力" type="text">
       </dd>
     </dl>
     <button>いい人生をスタート</button>
@@ -45,7 +45,7 @@ dd {
 }
 
 button {
-  width: 60px;
+  width: 120px;
 }
 
 input[type="text"] {
