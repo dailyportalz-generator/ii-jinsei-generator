@@ -245,16 +245,14 @@ export default {
       var result = this.sentenceList[i][random]
       result = result.split(';');
       this.sentence = result[0].replace('usrname', this.name)
-      for(var i=0;i < 3; i++){
+      for(var x=0;x < 3; x++){
         this.sentence = this.sentence.replace('usrname', this.name)
       }
       this.myMoney += Number(result[1])
       this.money = this.toJapNum(this.myMoney)
-      console.log(this.money)
     },
     sentenceCreate(){
       const result = this.age
-      console.log(this.age)
       switch(true){
         case result >= 11 && result <= 20:
           this.randomNumber(0)

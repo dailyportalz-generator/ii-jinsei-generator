@@ -24,17 +24,15 @@
 </template>
 
 <script>
-import GoodLifeHeader from "./components/GoodLifeHeader.vue";
+// import GoodLifeHeader from "./components/GoodLifeHeader.vue";
 import InputQuestion from "./components/InputQuestion.vue";
-// import SelectQuestion from "./components/SelectQuestion.vue";
 import GoodLifeResult from "./components/GoodLifeResult.vue";
 
 export default {
   name: "app",
   components: {
-    GoodLifeHeader,
+    // GoodLifeHeader,
     InputQuestion,
-    // SelectQuestion,
     GoodLifeResult
   },
   data() {
