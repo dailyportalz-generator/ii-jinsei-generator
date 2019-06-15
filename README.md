@@ -1,4 +1,4 @@
-# twitter-chat-app
+# ii-jinsei-generator
 
 ## Project setup
 ```
